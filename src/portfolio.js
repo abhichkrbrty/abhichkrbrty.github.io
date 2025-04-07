@@ -19,7 +19,7 @@ const greeting = {
   title: "Hello!",
   sub: "Abhi Chakraborty",
   logo_name: "Abhi Chakraborty",
-  resumeLink: "",
+  resumeLink: "resume/AbhiResumeQTE.pdf",
 };
 
 // home logos
@@ -656,6 +656,13 @@ const contactPageData = {
   },
 };
 
+const contactInfo = {
+  title: "Contact Me",
+  subtitle: "I am available on social media. You can message me, I will try to reply as soon as possible.",
+  number: " ", 
+  email_address: "abhichkrbrty@gmail.com",
+};
+
 //contact icons
 const socialMediaLinks = [
   {
@@ -663,7 +670,7 @@ const socialMediaLinks = [
     link: "https://github.com/abhichkrbrty",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    backgroundColor: "#ffffff", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
@@ -698,4 +705,5 @@ export {
   certifications,
   resumeleft,
   resumeright,
+  contactInfo,
 };
